@@ -1,9 +1,12 @@
 import React from 'react';
+import Homepage from "./homepage.components";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">Empty</div>
+    <div className="App">
+      <Homepage></Homepage>
+    </div>
   );
 }
 
